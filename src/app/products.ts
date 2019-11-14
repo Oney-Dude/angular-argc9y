@@ -7,7 +7,7 @@ export const products = [
   {
     name: 'The Moon',
     threatLVL: 699,
-    description: 'Could have aliens beneath the surface'
+    description: 'Aliens could be hidden beneath the surface.'
   },
   {
     name: 'Brians Apartment',
