@@ -3,12 +3,12 @@ import { Component } from '@angular/core';
 import { locations } from '../locations';
 
 @Component({
-  selector: 'app-product-list',
-  templateUrl: './product-list.component.html',
-  styleUrls: ['./product-list.component.css']
+  selector: 'app-location-list',
+  templateUrl: './location-list.component.html',
+  styleUrls: ['./location-list.component.css']
 })
-export class ProductListComponent {
-  products = locations;
+export class LocationListComponent {
+  locations = locations;
 
   lock() {
     window.alert('Missile coordinates confirmed.');
