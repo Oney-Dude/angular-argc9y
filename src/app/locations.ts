@@ -1,4 +1,5 @@
-export const products = [
+export const locations
+ = [
   {
     name: 'Lubbock',
     threatLVL: 1,
