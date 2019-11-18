@@ -1,5 +1,4 @@
-export const locations
- = [
+export const locations = [
   {
     name: 'Lubbock',
     threatLVL: 1,
