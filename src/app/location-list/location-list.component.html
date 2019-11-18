@@ -1,6 +1,6 @@
 <h2>Targets</h2>
 
-<div *ngFor="let product of products">
+<div *ngFor="let location of locations">
 
   <h3>
     <a [title]="location.name + ' details'">
@@ -16,10 +16,10 @@
     Target Lock
   </button>
 
-  <app-product-alerts
-  [product]="product" 
+  <app-location-alerts
+  [location]="location" 
   (notify)="onNotify()">
-</app-product-alerts>
+</app-location-alerts>
 
 </div>
 
