@@ -6,9 +6,22 @@
     <a [title]="location.name + ' details'">
       {{ location.name }}
     </a>
+  
+  <p *ngIf="location.description">
+    Description: {{ location.description }}
+  </p>
+  
+  <button (click)="lock()">
+    Target Lock
+  </button>
+  
+  
+
   </h3>
 
-  <p *ngIf="location.description">
+  
+
+  <!-- <p *ngIf="location.description">
     Description: {{ location.description }}
   </p>
 
@@ -19,7 +32,8 @@
   <app-location-alerts
   [location]="location" 
   (notify)="onNotify()">
-</app-location-alerts>
+  </app-location-alerts> -->
+
 
 </div>
 
